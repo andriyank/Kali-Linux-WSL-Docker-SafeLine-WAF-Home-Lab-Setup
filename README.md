@@ -199,7 +199,6 @@ All attack attempts were successfully detected and blocked by SafeLine WAF befor
 
 | Issue | Cause | Solution |
 |---|---|---|
-| `wsl: command not found` | Running a Windows command inside Kali | Make sure you're in PowerShell (not the `kali@...` prompt) before running `wsl` |
 | `docker-compose-plugin has no installation candidate` | Kali's default repo doesn't always have the latest package | Install Docker from the official Docker repo (see [step 4](#4-install-docker)) |
 | `systemctl` fails (`System has not been booted with systemd`) | systemd isn't active in WSL | Check with `ps -p 1 -o comm=`; if it's not `systemd`, add `[boot]\nsystemd=true` to `/etc/wsl.conf`, then `wsl --shutdown` |
 | SSL Cert error when adding an application | Port 443 (HTTPS) enabled without a certificate | Remove the 443 listening port if only HTTP is needed for testing |

@@ -176,17 +176,25 @@ Protected access (via SafeLine): `http://127.0.0.1:8080`
 ```
 http://127.0.0.1:8080/?q=<script>alert(1)</script>
 ```
+<p align="center">
+  <img src="images/xss-cross-site-scripting.png" alt="cross site scripting">
+</p>
 
 **SQL Injection**
 ```
 http://127.0.0.1:8080/?id=1' OR '1'='1
 ```
+<p align="center">
+  <img src="images/sql-injection-attack.png" alt="sql injection attack">
+</p>
 
 **Path Traversal / File Inclusion**
 ```bash
 curl --path-as-is "http://127.0.0.1:8080/?file=../../../../etc/passwd"
 ```
-
+<p align="center">
+  <img src="images/path-traversal-attack.png" alt="path traversal attack">
+</p>
 ---
 
 ## ✅ Test Results

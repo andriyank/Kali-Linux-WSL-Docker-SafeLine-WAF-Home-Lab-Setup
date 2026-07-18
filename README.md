@@ -167,11 +167,12 @@ cd ~/testweb
 echo "<h1>Hello, Demo Site</h1>" > index.html
 python3 -m http.server 8000
 ```
+Protected access (via SafeLine): `http://127.0.0.1:8080`
 <p align="center">
   <img src="images/server-test-demo site-active.png" alt="Demo site active">
 </p>
 
-Protected access (via SafeLine): `http://127.0.0.1:8080`
+
 
 ### Attack Payloads Tested
 

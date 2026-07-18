@@ -119,7 +119,9 @@ docker --version
 docker compose version
 sudo docker run hello-world
 ```
-![Docker Done](images/Docker%20Installation%20Done.png)
+<p align="center">
+  <img src="images/docker-installation-done.png" alt="Docker Installation Done">
+</p>
 
 ### 5. Install SafeLine WAF
 

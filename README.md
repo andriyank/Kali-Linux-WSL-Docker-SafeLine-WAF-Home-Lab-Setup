@@ -207,6 +207,23 @@ curl --path-as-is "http://127.0.0.1:8080/?file=../../../../etc/passwd"
 
 All attack attempts were successfully detected and blocked by SafeLine WAF before reaching the target web server, and were fully logged in the dashboard (Action, URL, Attack Type, IP Address, Time).
 
+<p align="center">
+  <img src="images/log-xss-detect.png" alt="Xss Detect">
+  <br>
+  <em>XSS detected and blocked by SafeLine WAF </em>
+</p>
+
+<p align="center">
+  <img src="images/log-sql-injection detect.png" alt="SQL Injection Detect">
+  <br>
+  <em>SQL Injection detected and blocked by SafeLine WAF </em>
+</p>
+
+<p align="center">
+  <img src="images/log-path-traversal-attack.png" alt="Path Traversal Detect">
+  <br>
+  <em>Path Traversal detected and blocked by SafeLine WAF </em>
+</p>
 ---
 
 ## 🔧 Troubleshooting

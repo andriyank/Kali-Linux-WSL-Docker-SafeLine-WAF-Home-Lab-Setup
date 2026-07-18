@@ -1,6 +1,6 @@
 # 🛡️ Kali Linux (WSL) + Docker + SafeLine WAF — Home Lab Setup
 
-Documentation of building a mini web security lab on a Windows 11 laptop using **Kali Linux (WSL2)**, **Docker**, and **SafeLine WAF**, including testing against common web attacks (XSS, SQL Injection, File Inclusion).
+Documentation of building a mini web security lab on a Windows 11 laptop using **Kali Linux (WSL2)**, **Docker**, and **SafeLine WAF**, including Penetration testing against common web attacks (XSS, SQL Injection, File Inclusion).
 
 ---
 
@@ -161,7 +161,6 @@ echo "<h1>Hello, Demo Site</h1>" > index.html
 python3 -m http.server 8000
 ```
 
-Unprotected access: `http://127.0.0.1:8000`
 Protected access (via SafeLine): `http://127.0.0.1:8080`
 
 ### Attack Payloads Tested

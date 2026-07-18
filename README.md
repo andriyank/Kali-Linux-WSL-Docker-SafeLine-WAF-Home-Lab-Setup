@@ -153,6 +153,10 @@ In the SafeLine dashboard → **Applications → Add Application**:
 
 ---
 
+<p align="center">
+  <img src="images/server-test-demo site-active.png.png" alt="Demo site active">
+</p>
+
 ## 🎯 Penetration Testing
 
 ### Start the Target Web Server ("attacked website")
